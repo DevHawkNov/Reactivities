@@ -37,14 +37,7 @@ export default function NavBar() {
             <MenuItemLink to="/activities">Activities</MenuItemLink>
             <MenuItemLink to="/createActivity">Create Activity</MenuItemLink>
           </Box>
-          <Button
-            onClick={() => {}}
-            size="large"
-            variant="contained"
-            color="warning"
-          >
-            Create activity
-          </Button>
+          <MenuItem>User menu</MenuItem>
         </Toolbar>
       </AppBar>
     </Box>
